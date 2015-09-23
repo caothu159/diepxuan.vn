@@ -1,1 +1,3 @@
 http://reward360.co/.
+
+tail -f /var/log/nodemon.admin
