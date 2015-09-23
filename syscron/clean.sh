@@ -65,5 +65,5 @@ rm /var/log/tuned/tuned.log.*
 > /var/log/nodemon.book
 
 #
-nodemon --watch /var/www/html/javascript/dx.server /var/www/html/javascript/dx.server/app.js>/var/log/nodemon.admin &
+nodemon --watch /var/www/html/javascript/dx.server /var/www/html/javascript/dx.server/bin/www>/var/log/nodemon.admin &
 
