@@ -1,0 +1,100 @@
+html,
+body {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 15px;
+}
+
+.cats {
+	float: left;
+	height: 100%;
+	width: 200px;
+	background-color: #f9f9f9;
+	box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.cats img {
+	box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+	margin-bottom: 40px;
+	margin-top: 40px;
+	background-color: #c3ffba;
+}
+
+.cats a {
+	float: left;
+	clear: both;
+	padding-left: 35px;
+	width: calc(100% - 35px);
+	box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
+	line-height: 40px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-style: italic;
+	margin-bottom: -1px;
+	background-color: #fff;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+
+.cats a:first-child {
+	padding: 0;
+	padding-right: 35px;
+}
+
+.cats .selected {
+	background-color: #c3ffba;
+}
+
+table {
+	color: #333333;
+	border-width: 0;
+	border-collapse: collapse;
+	float: right;
+	width: calc(100% - 205px);
+	box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+	background-color: #f6fff2;
+	overflow: auto;
+	margin-top: 5px;
+}
+
+table a,
+table input[type=submit] {
+	text-transform: lowercase;
+	text-decoration: none;
+	color: black;
+	background-color: #c3ffba;
+	padding: 2px 7px;
+	margin: 0 3px;
+	border: 0;
+	border-radius: 5px;
+	box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+}
+
+table a:hover,
+table input[type=submit]:hover {
+	background-color: #7cea6b;
+}
+
+table tr:nth-child(odd) {
+	background-color: rgba(0, 0, 0, 0.02);
+}
+
+table th {
+	text-transform: capitalize;
+	border-width: 0;
+	box-shadow: inset -1px -1px 1px rgba(0, 0, 0, 0.2);
+	padding: 8px;
+	text-align: center;
+	background-color: #7cea6b;
+}
+
+table td {
+	border-width: 0;
+	box-shadow: inset -1px -1px 1px rgba(0, 0, 0, 0.2);
+	padding: 8px;
+}
