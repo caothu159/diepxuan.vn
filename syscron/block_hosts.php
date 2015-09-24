@@ -28,9 +28,9 @@ while (!feof($handle)) {
 	}
 }
 fclose($handle);
-foreach ($ips as $ip => $hits) {
-	echo "{$ip}#{$hits}<br />";
-}
+// foreach ($ips as $ip => $hits) {
+	// echo "{$ip}#{$hits}<br />";
+// }
 
 unset($ips['localhost']);
 unset($ips[$current_ip]);
