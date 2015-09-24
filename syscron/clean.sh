@@ -65,4 +65,4 @@ rm /var/log/tuned/tuned.log.*
 > /var/log/nodemon.book
 
 #
-cd /var/www/html/javascript/dx.server; npm start>/var/log/nodemon.admin
+cd /var/www/html/node.diepxuan.vn; npm start>/var/log/nodemon.admin
